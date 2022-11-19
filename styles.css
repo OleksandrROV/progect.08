@@ -13,7 +13,8 @@ li {
 
     @media screen and(min-width: 320px) {
         width: 320px;
-
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     @media screen and(min-width: 768px) {
@@ -21,7 +22,7 @@ li {
 
     }
 
-    @media screen and(min-width: 1200px) {
+    @media screen and(min-width: 1280px) {
         width: 1200px;
 
     }
@@ -55,12 +56,39 @@ li {
 }
 
 .order-product-img-hero {
-    width: 288px;
+
+    @media screen and(min-width: 320px) {
+        width: 320px;
+
+    }
+
+    @media screen and(min-width: 768px) {
+        width: 768px;
+
+    }
+
+    @media screen and(min-width: 1280px) {
+        width: 1200px;
+
+    }
 }
 
 .order-product-img {
-    width: 60px;
-    height: 62px;
+
+    @media screen and(min-width: 320px) {
+        width: 320px;
+
+    }
+
+    @media screen and(min-width: 768px) {
+        width: 768px;
+
+    }
+
+    @media screen and(min-width: 1280px) {
+        width: 1200px;
+
+    }
 }
 
 .order-sale-list {
@@ -83,6 +111,21 @@ li {
     text-decoration-line: line-through;
 
     color: #8D9289;
+
+    @media screen and(min-width: 320px) {
+        width: 320px;
+
+    }
+
+    @media screen and(min-width: 768px) {
+        width: 768px;
+
+    }
+
+    @media screen and(min-width: 1280px) {
+        width: 1200px;
+
+    }
 }
 
 .order-sale-done {
@@ -96,7 +139,20 @@ li {
 
     color: #86E543;
 
-    margin-left: auto;
+    @media screen and(min-width: 320px) {
+        width: 320px;
+        margin-left: auto;
+    }
+
+    @media screen and(min-width: 768px) {
+        width: 768px;
+
+    }
+
+    @media screen and(min-width: 1280px) {
+        width: 1200px;
+
+    }
 }
 
 .order-list {
@@ -104,6 +160,21 @@ li {
     flex-wrap: wrap;
     gap: 16px;
     padding-left: 0;
+
+    @media screen and(min-width: 320px) {
+        width: 320px;
+
+    }
+
+    @media screen and(min-width: 768px) {
+        width: 768px;
+
+    }
+
+    @media screen and(min-width: 1280px) {
+        width: 1200px;
+
+    }
 }
 
 .order-item {}
