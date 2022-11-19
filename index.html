@@ -6,11 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 
 <body>
-    <section class="order-container">
+    <section class="order-container container">
         <h2 class="order-title">
             Take order
         </h2>
@@ -18,7 +18,18 @@
             Xiberia K9 PRO PC Headset
         </p>
         <div class="order-product">
-            <img class="order-product-img-hero" src="./images/Rectangle-4279.jpg" width="288px" alt="">
+            <source srcset="
+
+                    " media="(max-width:1280px)" />
+            <source srcset="
+
+                    " media="(max-width:768px)" />
+            <source srcset="
+./images/mob/Rectangle1-mob-x1.jpg,
+./images/mob/Rectangle1-mob-x2.jpg
+                    " media="(max-width:320px)" />
+            <img class="order-product-img-hero" src="./images/Rectangle-4279.jpg" max-width="288px" alt="">
+            </picture>
             <ul class="order-sale-list">
                 <li class="order-sale-up">
                     65.14 USD
@@ -30,16 +41,59 @@
         </div>
         <ul class="order-list">
             <li class="order-item">
+                <source srcset="
+            
+                                " media="(max-width:1280px)" />
+                <source srcset="
+            
+                                " media="(max-width:768px)" />
+                <source srcset="
+            ./images/mob/Rectangle2-mob-x1.jpg,
+            ./images/mob/Rectangle2-mob-x2.jpg
+                                " media="(max-width:320px)" />
                 <img class="order-item-img" src="./images/Rectangle-4280.jpg" width="60px" alt="">
+                </picture>
             </li>
             <li class="order-item">
+                <source srcset="
+            
+                                " media="(max-width:1280px)" />
+                <source srcset="
+            
+                                " media="(max-width:768px)" />
+                <source srcset="
+            ./images/mob/Rectangle3-mob-x1.jpg,
+            ./images/mob/Rectangle3-mob-x2.jpg
+                                " media="(max-width:320px)" />
                 <img class="order-item-img" src="./images/Rectangle-4281.jpg" width="60px" alt="">
+                </picture>
             </li>
             <li class="order-item">
+                <source srcset="
+                                            
+                                                                " media="(max-width:1280px)" />
+                <source srcset="
+                                            
+                                                                " media="(max-width:768px)" />
+                <source srcset="
+                                            ./images/mob/Rectangle1-mob-x1.jpg,
+                                            ./images/mob/Rectangle1-mob-x2.jpg
+                                                                " media="(max-width:320px)" />
                 <img class="order-item-img" src="./images/Rectangle-4282.jpg" width="60px" alt="">
+                </picture>
             </li>
             <li class="order-item">
+                <source srcset="
+                                            
+                                                                " media="(max-width:1280px)" />
+                <source srcset="
+                                            
+                                                                " media="(max-width:768px)" />
+                <source srcset="
+                                            
+                                                                " media="(max-width:320px)" />
                 <img class="order-item-img" src="./images/Rectangle-4283.jpg" width="60px" alt="">
+                </picture>
             </li>
         </ul>
     </section>
