@@ -1,0 +1,168 @@
+.blog-article {
+  padding-top: 144px;
+  margin: 0 auto;
+  width: 100%;
+  background-image: url(/src/images/blog-article/Blog_article_mobile.jpg);
+
+  @include tablet {
+    background-image: url(/src/images/blog-article/Blog_article_tablet-2.jpg);
+    padding-top: 256px;
+  }
+
+  @include desktop {
+    background-image: url(/src/images/blog-article/Blog_article-2.jpg);
+    padding-top: 256px;
+  }
+}
+
+.article__title {
+  margin-bottom: 31px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  color: #ffffff;
+
+  @include tablet {
+    font-size: 56px;
+    line-height: 100%;
+  }
+}
+
+.article__thumb {
+  width: 100%;
+  @include tablet {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @include desktop {
+    position: relative;
+    height: 430px;
+  }
+}
+
+.article__img {
+  @include max-mobile {
+    // max-width: 100%;
+    // height: auto;
+    // margin-left: auto;
+    // margin-right: auto;
+  }
+
+  @include desktop {
+    height: 336px;
+    width: 387px;
+  }
+}
+.article__picture {
+  display: block;
+
+  @include max-mobile {
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto;
+  }
+  @include max-tablet {
+    display: inline-block;
+    margin-right: 40px;
+    width: 387px;
+  }
+  @include desktop {
+    margin-top: auto;
+    margin-right: 121px;
+    height: 336px;
+    width: 387px;
+  }
+}
+
+.image__text {
+  @include tablet {
+    // width: 261px;
+    margin-top: auto;
+  }
+  @include desktop {
+    // width: 692px;
+    display: flex;
+    position: absolute;
+    top: 24px;
+    right: 45px;
+  }
+}
+
+.article__author {
+  margin-bottom: 8px;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  @include tablet {
+    width: 248px;
+    font-size: 24px;
+  }
+  @include desktop {
+    width: 260px;
+    margin-right: 75px;
+  }
+}
+
+.article__update {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+
+  color: #8d9289;
+  @include tablet {
+    width: 261px;
+    font-size: 24px;
+  }
+  @include desktop {
+    width: 360px;
+  }
+}
+
+.top__article__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.article__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: white;
+  @include tablet {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+}
+.top__article {
+  margin-top: 24px;
+  @include desktop {
+    margin-top: auto;
+    max-width: 690px;
+  }
+}
+.article__check {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.article__text--green {
+  @media screen and (min-width: 768px) {
+    color: #86e543;
+  }
+}
+.article__checklist {
+  margin: 0;
+}
+.article__checklist__item {
+  list-style: decimal;
+}
+
+.bot__article__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 24px;
+}
